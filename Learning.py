@@ -9,7 +9,7 @@ from Generator import Generator
 generator = Generator(NOISE_SIZE)
 discriminator = Discriminator()
 
-# Define Adam optimizers for Generator and Discriminator models
+# Define RMSprop optimizers for Generator and Discriminator models
 gen_optimizer = tf.keras.optimizers.RMSprop(LEARNING_RATE)
 discr_optimizer = tf.keras.optimizers.RMSprop(LEARNING_RATE)
 
