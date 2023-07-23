@@ -1,6 +1,6 @@
 # DCGAN Project
 
-This project implements a Deep Convolutional Generative Adversarial Network (GAN) using TensorFlow for generating images of numbers from the [mnist](https://en.wikipedia.org/wiki/MNIST_database) dataset. The DCGAN consists of a Generator and a Discriminator that compete against each other during training. The goal is for the Generator to produce realistic-looking images that can fool the Discriminator.
+This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) using TensorFlow for generating images of numbers from the [mnist](https://en.wikipedia.org/wiki/MNIST_database) dataset. The DCGAN consists of a Generator and a Discriminator that compete against each other during training. The goal is for the Generator to produce realistic-looking images that can fool the Discriminator.
 
 ## Project Structure
 
